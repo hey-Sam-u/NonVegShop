@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samir’s Non-Veg Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <div class="logo">
+        <h1>Samir’s Non-Veg Shop</h1>
+      </div>
+      <nav>
+        <input
+          type="text"
+          id="searchBar"
+          placeholder="Search for products..."
+        />
+        <div id="suggestions" class="suggestions"></div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Fresh & Delicious Non-Veg Items</h2>
+        <p>Order online & get it delivered to your doorstep</p>
+        <a href="#categories" class="btn">Shop Now</a>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1617196039565-5f8236c2b989?auto=format&fit=crop&w=800&q=80"
+          alt="Non-Veg Banner"
+        />
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+      <h2>Shop by Category</h2>
+      <div class="category-grid">
+        <a href="pages/chicken.html" class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1604908177520-0f248d5d8c8c?auto=format&fit=crop&w=400&q=80"
+            alt="Chicken"
+          />
+          <h3>Chicken <i class="fa-solid fa-drumstick-bite"></i></h3>
+        </a>
+        <a href="pages/mutton.html" class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1607205681143-9b54e40a3fc5?auto=format&fit=crop&w=400&q=80"
+            alt="Mutton"
+          />
+          <h3>Mutton <i class="fa-solid fa-bone"></i></h3>
+        </a>
+        <a href="pages/fish.html" class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1562967916-eb82221dfb3b?auto=format&fit=crop&w=400&q=80"
+            alt="Fish"
+          />
+          <h3>Fish <i class="fa-solid fa-fish"></i></h3>
+        </a>
+        <a href="pages/egg.html" class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1617196039575-5f8236c2b988?auto=format&fit=crop&w=400&q=80"
+            alt="Eggs"
+          />
+          <h3>Eggs <i class="fa-solid fa-egg"></i></h3>
+        </a>
+        <!-- Add more categories as needed -->
+      </div>
+    </section>
+    <!-- Navigation Cards for Remaining Pages -->
+    <section class="category-cards">
+      <a href="pages/cart.html" class="category-card">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span>Cart 🛒</span>
+      </a>
+
+      <a href="pages/chicken-lollipop.html" class="category-card">
+        <i class="fa-solid fa-drumstick-bite"></i>
+        <span>Chicken Lollipop 🍗</span>
+      </a>
+
+      <a href="pages/prawns.html" class="category-card">
+        <i class="fa-solid fa-shrimp"></i>
+        <span>Prawns 🍤</span>
+      </a>
+
+      <a href="pages/tandoori.html" class="category-card">
+        <i class="fa-solid fa-bacon"></i>
+        <span>Tandoori 🍖</span>
+      </a>
+
+      <!-- Add more cards here if other pages exist but not linked yet -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        Crafted with ❤️ by S∆MIR, the best non-veg shop in town. Fresh meats,
+        daily deliveries, unbeatable prices, and a delight for every non-veg
+        lover. Your satisfaction is our priority. Order now and taste the
+        difference. Fast delivery guaranteed!
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart - Samir’s Non-Veg Shop</title>
+    <link rel="stylesheet" href="cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>My Cart / Orders</h1>
+      <a href="index.html" class="back-btn"
+        ><i class="fa-solid fa-arrow-left"></i> Back to Home</a
+      >
+    </header>
+
+    <!-- Cart Items -->
+    <section class="cart-container">
+      <!-- Example Product -->
+      <div class="cart-item">
+        <img
+          src="https://images.unsplash.com/photo-1604908177520-0f248d5d8c8c?auto=format&fit=crop&w=100&q=80"
+          alt="Chicken Breast"
+        />
+        <div class="item-details">
+          <h3>Chicken Breast</h3>
+          <p class="price">₹250/kg</p>
+          <p class="status">Status: Preparing</p>
+        </div>
+        <button class="delete-item"><i class="fa-solid fa-trash"></i></button>
+      </div>
+
+      <div class="cart-item">
+        <img
+          src="https://images.unsplash.com/photo-1607205681143-9b54e40a3fc5?auto=format&fit=crop&w=100&q=80"
+          alt="Mutton Curry Cut"
+        />
+        <div class="item-details">
+          <h3>Mutton Curry Cut</h3>
+          <p class="price">₹450/kg</p>
+          <p class="status">Status: On the way</p>
+        </div>
+        <button class="delete-item"><i class="fa-solid fa-trash"></i></button>
+      </div>
+
+      <div class="cart-item">
+        <img
+          src="https://images.unsplash.com/photo-1617196039575-5f8236c2b988?auto=format&fit=crop&w=100&q=80"
+          alt="Fresh Eggs"
+        />
+        <div class="item-details">
+          <h3>Fresh Eggs (12 pcs)</h3>
+          <p class="price">₹120/pack</p>
+          <p class="status">Status: Delivered</p>
+        </div>
+        <button class="delete-item"><i class="fa-solid fa-trash"></i></button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        Crafted with ❤️ by S∆MIR, the best non-veg shop in town. Track your
+        orders, delete items, or review your cart before checkout. Enjoy fresh,
+        tasty meats delivered fast, right to your doorstep!
+      </p>
+    </footer>
+
+    <script src="cart.js"></script>
+  </body>
+</html>
